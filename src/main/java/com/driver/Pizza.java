@@ -26,7 +26,7 @@ public class Pizza {
              this.price=400;
              this.toppings=120;
          }
-         this.bill = "Base Price Of The Pizza:"+this.price +"\n";
+         this.bill ="Base Price Of The Pizza:"+this.price +"\n";
 
     }
 
@@ -63,7 +63,7 @@ public class Pizza {
 
     public String getBill() {
         // your code goes here
-        if (isbiilCreated) {
+        if (!isbiilCreated) {
             if (ischeesadded) {
                 this.bill += "Extra Cheese Added: 80" + "\n";
             }
