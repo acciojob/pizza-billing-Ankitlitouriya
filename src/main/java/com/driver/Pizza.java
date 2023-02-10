@@ -65,15 +65,15 @@ public class Pizza {
         // your code goes here
         if (!isbiilCreated) {
             if (ischeesadded) {
-                this.bill += "Extra Cheese Added: 80" +"\n";
+                this.bill += "Extra Cheese Added:80"+"\n";
             }
             if (istoppings) {
-                this.bill += "Extra Toppings Added:" + this.toppings +"\n";
+                this.bill += "Extra Toppings Added:"+ this.toppings +"\n";
             }
             if (istakeAway) {
-                this.bill += "Paperbag Added:" +20+"\n";
+                this.bill += "Paperbag Added:"+20+"\n";
             }
-            this.bill += "Total Price:" + this.price+"\n";
+            this.bill += "Total Price:"+this.price+"\n";
             return this.bill;
         }
         return "";
